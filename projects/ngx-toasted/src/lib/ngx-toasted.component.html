@@ -1,0 +1,13 @@
+<div class="toast-container"
+  [class.align-start]="align === 'start'"
+  [class.align-end]="align === 'end'"
+  [class.justify-start]="justify === 'start'"
+  [class.justify-end]="justify === 'end'"
+  [class.reverse]="reverse">
+  <div @items *ngFor="let innerToast of innerToasts"
+    class="toast"
+    [class.info]="innerToast.toast.type === 'info'"
+    [class.success]="innerToast.toast.type === 'success'"
+    [class.warning]="innerToast.toast.type === 'warning'"
+    [class.error]="innerToast.toast.type === 'error'">{{ innerToast.toast.message }}</div>
+</div>
