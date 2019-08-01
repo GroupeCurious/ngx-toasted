@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "A simple library to disaplay toasts with the ability to everride existing toast",
   "author": "Groupe Curious",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GroupeCurious/ngx-toasted.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GroupeCurious/ngx-toasted/issues"
+  },
+  "homepage": "https://github.com/GroupeCurious/ngx-toasted",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +20,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~8.1.2",
     "@angular/common": "~8.1.2",
